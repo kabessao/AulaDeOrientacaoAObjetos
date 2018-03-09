@@ -1,0 +1,6 @@
+I:\Info\AulaDeOrientacaoAObjetos\CarArray\bin\Debug\CarArray.exe.config
+I:\Info\AulaDeOrientacaoAObjetos\CarArray\bin\Debug\CarArray.exe
+I:\Info\AulaDeOrientacaoAObjetos\CarArray\bin\Debug\CarArray.pdb
+I:\Info\AulaDeOrientacaoAObjetos\CarArray\obj\Debug\CarArray.csproj.CoreCompileInputs.cache
+I:\Info\AulaDeOrientacaoAObjetos\CarArray\obj\Debug\CarArray.exe
+I:\Info\AulaDeOrientacaoAObjetos\CarArray\obj\Debug\CarArray.pdb
