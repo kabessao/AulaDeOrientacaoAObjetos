@@ -1,0 +1,9 @@
+UML  = "Universal Modeling Language" 
+
+
+compilar arquivos em java:
+	javac HelloJava.java	
+	java HelloJava
+
+	1) O nome do arquivo tem que ser exatamente igual ao nome da classe.
+	

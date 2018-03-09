@@ -1,0 +1,6 @@
+I:\Info\AulaDeOrientacaoAObjetos\CursoTecnicoEmInformatica\bin\Debug\CursoTecnicoEmInformatica.exe.config
+I:\Info\AulaDeOrientacaoAObjetos\CursoTecnicoEmInformatica\bin\Debug\CursoTecnicoEmInformatica.exe
+I:\Info\AulaDeOrientacaoAObjetos\CursoTecnicoEmInformatica\bin\Debug\CursoTecnicoEmInformatica.pdb
+I:\Info\AulaDeOrientacaoAObjetos\CursoTecnicoEmInformatica\obj\Debug\CursoTecnicoEmInformatica.csproj.CoreCompileInputs.cache
+I:\Info\AulaDeOrientacaoAObjetos\CursoTecnicoEmInformatica\obj\Debug\CursoTecnicoEmInformatica.exe
+I:\Info\AulaDeOrientacaoAObjetos\CursoTecnicoEmInformatica\obj\Debug\CursoTecnicoEmInformatica.pdb
