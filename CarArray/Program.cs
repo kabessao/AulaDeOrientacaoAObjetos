@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CarArray
 {
@@ -12,9 +8,7 @@ namespace CarArray
         {
             String[] carros = new string[] { "Porshe", "Ferrari", "Maserati" };
             for (int i = 0; i < carros.Length; i++)
-            {
                 Console.WriteLine(carros[i]);
-            }
             
         }
 
