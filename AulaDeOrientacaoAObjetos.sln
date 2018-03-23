@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploShort", "ExemploShor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyboardReader", "KeyboardReader\KeyboardReader.csproj", "{A7F32842-819D-4712-80CB-FD36B1C46F79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicacaoFinanceira", "AplicacaoFinanceira\AplicacaoFinanceira.csproj", "{23103C84-9FCE-4DCE-953C-FF145051ECC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A7F32842-819D-4712-80CB-FD36B1C46F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7F32842-819D-4712-80CB-FD36B1C46F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7F32842-819D-4712-80CB-FD36B1C46F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23103C84-9FCE-4DCE-953C-FF145051ECC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23103C84-9FCE-4DCE-953C-FF145051ECC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23103C84-9FCE-4DCE-953C-FF145051ECC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23103C84-9FCE-4DCE-953C-FF145051ECC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,3 +12,10 @@ I:\Info\AulaDeOrientacaoAObjetos\Exemplo1\obj\Debug\Exemplo1.csprojResolveAssemb
 I:\Info\AulaDeOrientacaoAObjetos\Exemplo1\obj\Debug\Exemplo1.csproj.CoreCompileInputs.cache
 I:\Info\AulaDeOrientacaoAObjetos\Exemplo1\obj\Debug\Exemplo1.exe
 I:\Info\AulaDeOrientacaoAObjetos\Exemplo1\obj\Debug\Exemplo1.pdb
+I:\Info\AulaDeOrientaçãoAObjetos\Exemplo1\bin\Debug\Exemplo1.exe.config
+I:\Info\AulaDeOrientaçãoAObjetos\Exemplo1\bin\Debug\Exemplo1.exe
+I:\Info\AulaDeOrientaçãoAObjetos\Exemplo1\bin\Debug\Exemplo1.pdb
+I:\Info\AulaDeOrientaçãoAObjetos\Exemplo1\obj\Debug\Exemplo1.csprojResolveAssemblyReference.cache
+I:\Info\AulaDeOrientaçãoAObjetos\Exemplo1\obj\Debug\Exemplo1.csproj.CoreCompileInputs.cache
+I:\Info\AulaDeOrientaçãoAObjetos\Exemplo1\obj\Debug\Exemplo1.exe
+I:\Info\AulaDeOrientaçãoAObjetos\Exemplo1\obj\Debug\Exemplo1.pdb
