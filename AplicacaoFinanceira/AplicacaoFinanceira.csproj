@@ -46,6 +46,8 @@
     <Compile Include="Banco.cs" />
     <Compile Include="Conta.cs" />
     <Compile Include="AplicacaoFinanceira.cs" />
+    <Compile Include="ContaCorrente.cs" />
+    <Compile Include="ContaPoupanca.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

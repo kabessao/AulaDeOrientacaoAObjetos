@@ -6,8 +6,17 @@ namespace Exemplo1
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Ola Mundo");
+            System.Out.Println("ola mundo");
         }
-        
+    }
+    public static class System
+    {
+        public static class Out
+        {
+            public static void Println(string texto)
+            {
+                Console.WriteLine(texto);
+            }
+        }
     }
 }
