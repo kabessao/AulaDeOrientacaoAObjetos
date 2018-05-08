@@ -9,6 +9,17 @@ namespace AplicacaoFinanceira
     class ContaCorrente
     {
         
+        public ContaCorrente ()
+        {
+
+        }
+        public ContaCorrente (long id, string numero, string saldo, double limite)
+        {
+            _id = id;
+            _numero = numero;
+            _saldo = saldo;
+            _limite = limite;
+        }
         private long _id;
         public long Id { get { return _id; } set { _id = value; } }
 

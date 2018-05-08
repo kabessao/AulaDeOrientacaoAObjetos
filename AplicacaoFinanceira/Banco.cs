@@ -5,6 +5,17 @@
         /* Metodo get usado para tratamento de dados,
          * como ver se o atributo esta vazio ou com valor incorreto
          */
+        public Banco()
+        {
+
+        }
+        public Banco(long id, string numero, string cnpj, string nome)
+        {
+            _id = id;
+            _numero = numero;
+            _cnpj = cnpj;
+            _nome = nome;
+        }
         private long _id;
         public long Id { get { return _id; } set { _id = value; } }
 

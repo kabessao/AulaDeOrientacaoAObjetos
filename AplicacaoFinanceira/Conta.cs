@@ -11,6 +11,18 @@
         private string _numero;
         private double _saldo;
 
+        public Conta()
+        {
+
+        }
+
+        public Conta(long id, string numero, double saldo)
+        {
+            _id = id;
+            _numero = numero;
+            _saldo = saldo;
+        }
+
         public void setId(long id)
         {
             _id = id;
@@ -35,8 +47,5 @@
         {
             return this._saldo;
         }
-
-
-        
     }
 }
