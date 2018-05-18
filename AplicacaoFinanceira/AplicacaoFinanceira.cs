@@ -9,15 +9,17 @@ namespace AplicacaoFinanceira
             // ======definição de objetos====== //
             Banco banco1 = new Banco(700, "2","123456/0000001-01","Santander");
             Agencia agencia1 = new Agencia(12,"22","Ag. leme");
-            ContaCorrente contaCorrente1 = new ContaCorrente(312,"9000","89123",4000);
-            ContaPoupanca contaPoupanca1 = new ContaPoupanca(123,"4321",100,2000, 0918723);
-            Conta conta1 = new Conta(123,"019283",20000);
+            ContaCorrente contaCorrente1 = new ContaCorrente(123,"019283",20000,4000);
+            ContaPoupanca contaPoupanca1 = new ContaPoupanca(123,"019283",20000,2000, 0918723);
+            ClientePessoaFisica clientePessoaFisica1 = new ClientePessoaFisica("Jão", "0912830", "13218293");
+            ClientePessoaJuridica clientePessoaJuridica1 = new ClientePessoaJuridica("Jão", "0830");
 
             // =====Mostrando os objetos===== //
             Console.WriteLine(banco1);
             Console.WriteLine(agencia1);
-            Console.WriteLine(conta1);
-
+            ClientePessoaFisica clientePessoaFisica = new ClientePessoaFisica();
+            clientePessoaFisica.Cpf = "092813092";
+            Console.WriteLine(clientePessoaFisica.Cpf);
             // ===== exibindo os dados de banco1 ===== //
             Console.WriteLine("ID do banco : " + banco1.Id);
             Console.WriteLine("O Número do banco : " + banco1.Numero);
@@ -35,16 +37,21 @@ namespace AplicacaoFinanceira
             Console.WriteLine("Numero contaCorrente : "+ contaCorrente1.Numero);
             Console.WriteLine("Saldo contaCorrente : "+ contaCorrente1.Saldo);
 
+            Console.WriteLine(contaCorrente1.Numero);
             // ===== Exibindo os dados de contaPoupanca1 ===== //
             Console.WriteLine("Id contaPoupanca : "+ contaPoupanca1.Id); 
             Console.WriteLine("Numero contaPoupanca : "+ contaPoupanca1.Numero); 
             Console.WriteLine("Saldo contaPoupanca : "+ contaPoupanca1.Saldo); 
             Console.WriteLine("TaxaDeCorrecao contaPoupanca : "+ contaPoupanca1.TaxaDeCorrecao);
 
-            // ====== Exibindo os dados de conta1 ====== //
-            Console.WriteLine("Id conta :" + conta1.getId());
-            Console.WriteLine("Numero conta :" + conta1.getNumero());
-            Console.WriteLine("Saldo conta :" + conta1.getSaldo());
+            // ====== Exibindo os dados de clientePessoaJuridica1 ====== //
+            Console.WriteLine("Nome clientePessoaJuridica1 :"+ clientePessoaJuridica1.Nome);
+            Console.WriteLine("Cnpj clientePessoaJuridica1 :"+ clientePessoaJuridica1.Cnpj);
+
+            // ====== Exibindo os dados de clientePessoaFisica ====== //
+            Console.WriteLine("Nome clientePessoaFisica :"+ clientePessoaFisica1.Nome );
+            Console.WriteLine("Cpf clientePessoaFisica :"+ clientePessoaFisica1.Cpf );
+            
         }
     }
 }

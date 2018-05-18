@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AplicacaoFinanceira
 {
-    class ContaPoupanca
+    class ContaPoupanca : Conta
     {
         public ContaPoupanca()
         {
@@ -20,9 +20,6 @@ namespace AplicacaoFinanceira
             DiaDeAniversario = diaDeAniversario;
             TaxaDeCorrecao = taxaDeCorrecao;
         }
-        public long Id { get; set; }
-        public string Numero { get; set; }
-        public double Saldo { get; set; }
         public short DiaDeAniversario { get; set; }
         public double TaxaDeCorrecao { get; set; }
 

@@ -6,7 +6,7 @@ using System.Text;
 
 namespace AplicacaoFinanceira
 {
-    class Cliente
+    public class Cliente
     {
         private string _nome;
 
@@ -16,22 +16,13 @@ namespace AplicacaoFinanceira
             set { _nome = value; }
         }
 
-        private string _cpf;
-
-        public string Cpf
-        {
-            get { return _cpf; }
-            set { _cpf = value; }
-        }
-
         public Cliente()
         {
 
         }
-        public Cliente(string nome, string cpf)
+        public Cliente(string nome)
         {
             Nome = nome;
-            Cpf = cpf;
         }
 
     }
