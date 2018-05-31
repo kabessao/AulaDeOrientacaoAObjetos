@@ -1,28 +1,19 @@
 ﻿namespace Fornecedor
 {
-    class Fornecedor : Contato
+    class FornecedorNacional : Fornecedor
     {
-        private float valorCredito, valorDivida;
-
-        public virtual  float ValorCredito 
+        public FornecedorNacional(string nome, int idade, string telefone, float valorCredito, float valorDivida)
+            : base(nome, idade, telefone, valorCredito, valorDivida)
         {
-            get { return valorCredito;}
-            set { valorCredito = value; }
         }
 
-        public virtual float ValorDivida
+        public override float ValorCredito
         {
-            get { return valorDivida; }
-            set { valorDivida = value; }
+            get{ return base.ValorCredito;} 
+            
+            set{
+                float teste = value;
+                base.ValorCredito =  value + (value * 0.20f);}
         }
-        public Fornecedor(string nome, int idade, string telefone, float valorCredito, float valorDivida) : 
-            base(nome,idade,telefone)
-        {
-            valorCredito = valorCredito;
-            valorDivida = valorDivida;
-        }
-
-        public float Saldo() => ValorCredito - ValorDivida;
-
     }
 }
