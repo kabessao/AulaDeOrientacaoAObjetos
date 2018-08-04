@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contato.cs" />
+    <Compile Include="Endereco.cs" />
     <Compile Include="Fornecedor.cs" />
     <Compile Include="FornecedorInternacional.cs" />
     <Compile Include="FornecedorNacional.cs" />

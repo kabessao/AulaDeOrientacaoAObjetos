@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F67B4024-B1DD-42EC-9F55-ADCF23BF1453}</ProjectGuid>
+    <ProjectGuid>{B637F65C-B8E9-45BE-B461-1CBDC59670B4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ExemploSobrecarga</RootNamespace>
-    <AssemblyName>ExemploSobrecarga</AssemblyName>
+    <RootNamespace>ExercicioEndereco</RootNamespace>
+    <AssemblyName>ExercicioEndereco</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Professor.cs" />
-    <Compile Include="ProfessorPosGraduacao.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

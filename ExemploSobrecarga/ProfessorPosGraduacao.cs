@@ -1,6 +1,6 @@
 ﻿namespace ExemploSobrecarga
 {
-    class ProfessorPosGraduacao : ProfessorGraduacao
+    class ProfessorPosGraduacao : Professor
     {
         public byte QtdAnosDoutorado { get; set; }
         public short QtdArtigos { get; set; }
@@ -22,9 +22,9 @@
             QtdArtigos = qtdArtigos;
         }
 
-        public override float CalcularSalario()
+        public override float CalcularSalarioLiquido()
         {
-            base.SalarioLiquido = base.CalcularSalario() + this.QtdArtigos * 150;
+            base.SalarioLiquido = base.CalcularSalarioLiquido() + this.QtdArtigos * 150;
             return base.SalarioLiquido;
         }
     }

@@ -1,6 +1,6 @@
 ﻿namespace ExemploSobrecarga
 {
-    public class ProfessorGraduacao
+    public class Professor
     {
         private double salarioBruto;
         private double salarioLiquido;
@@ -11,7 +11,7 @@
         public float SalarioLiquido { get;  set; }
         public int QuantidadeDisciplina { get; set; }
 
-        public ProfessorGraduacao(
+        public Professor(
             string matricula,
             string nome,
             float salarioBruto,
@@ -24,7 +24,7 @@
         }
 
 
-        public virtual float CalcularSalario()
+        public virtual float CalcularSalarioLiquido()
         {
             SalarioLiquido = SalarioBruto - (SalarioBruto * 0.2f) + QuantidadeDisciplina * 50;
             return SalarioLiquido;

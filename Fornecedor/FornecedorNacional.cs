@@ -11,9 +11,11 @@
         {
             get{ return base.ValorCredito;} 
             
-            set{
+            set
+            {
                 float teste = value;
-                base.ValorCredito =  value + (value * 0.20f);}
+                base.ValorCredito =  value + (value * 0.20f);
+            }
         }
     }
 }

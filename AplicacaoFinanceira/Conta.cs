@@ -16,5 +16,10 @@ namespace AplicacaoFinanceira
             Numero = numero;
             Saldo = saldo;
         }
+
+        public Conta()
+        {
+            
+        }
     }
 }

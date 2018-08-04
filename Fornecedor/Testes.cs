@@ -21,22 +21,24 @@ namespace Fornecedor
 
             // ====== Exercício 3 ====== //
             Fornecedor forn1 = new Fornecedor("Henrique", 21, "123456789",  50,2000);
-            Mensagem(forn1);
+            Mensagem(forn1 as Fornecedor);
             // ====== Fim Exercício 3 ====== //
                
            
             // ====== Exercício 4 ====== //
-            FornecedorNacional forn2 = new FornecedorNacional("João", 40, "982734987",1000,100);
-            Mensagem(forn2);
-            forn2.ValorCredito = 800;
-            Mensagem(forn2);
+            Object forn2 = new FornecedorNacional("João", 40, "982734987",1000,100);
+            Mensagem(forn2 as Fornecedor);
+            (forn2 as FornecedorNacional).ValorCredito = 800;
+            Mensagem(forn2 as Fornecedor);
             
-            FornecedorInternacional forn3 = new FornecedorInternacional("José", 50, "298738752", 1000);
-            Mensagem(forn3);
-            forn3.ValorDivida = 20000;
-            Mensagem(forn3);
+            Object forn3 = new FornecedorInternacional("José", 50, "298738752", 1000);
+            Mensagem(forn3 as Fornecedor);
+                (forn3 as FornecedorInternacional).ValorDivida = 20000;
+            Mensagem((Fornecedor) forn3);
             // ====== Fim Exercício 4 ====== //
         }
+
+
 
         private static void Mensagem(Fornecedor fornecedor)
         {
